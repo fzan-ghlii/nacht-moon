@@ -438,6 +438,14 @@
 <!-- partial -->
 
   <script  src="main.js"></script>
+  <script>
+    function redirectToNewPage() {
+      window.location.href = "flower2.html";
+    }
+    document.addEventListener('DOMContentLoaded' , (event) => {
+      document.body.addEventListener('click' , redirectToNewPage);
+    });
+  </script>
 
 <audio autoplay loop>
   <source src="sound/wave to earth - bad (Official Lyric Video).mp3" type="audio/mp3">
