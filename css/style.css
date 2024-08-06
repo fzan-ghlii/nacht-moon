@@ -14,14 +14,14 @@ body{
 }
 .greetings{
     font-size: 6rem;
-    font-weight: 900;
+    font-weight: 600;
 }
 .greetings > span{
     animation: glow 5s ease-in-out infinite;
 }
 .doi{
     font-size: 6rem;
-    font-weight: 900;
+    font-weight: 600;
 }
 .doi > span{
     animation: glow 5s ease-in-out infinite;
